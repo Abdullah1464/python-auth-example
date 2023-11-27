@@ -43,7 +43,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
-          push: true
+          push: false
           tags: ${{ secrets.DOCKER_USERNAME }}/python-auth-example:latest
 
       - name: Push Docker Image to Dockerhub
