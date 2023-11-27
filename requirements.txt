@@ -4,3 +4,4 @@ Flask-SQLAlchemy
 flask-security-too
 email_validator
 Werkzeug==2.3.0
+flake8
